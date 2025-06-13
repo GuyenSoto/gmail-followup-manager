@@ -14,6 +14,48 @@ A powerful Streamlit application for intelligently managing email follow-ups usi
 - **Backup Management**: Automatic backup and restore functionality
 - **Responsive UI**: Clean, modern interface with real-time updates
 
+## 📸 Screenshots
+
+### Dashboard Overview
+Get a comprehensive view of your email follow-up metrics and analytics.
+
+![Dashboard Overview](Images/001_Dashboard.jpg)
+
+### Analytics Dashboard
+Monitor your email response rates and follow-up performance with detailed charts.
+
+![Analytics Dashboard](Images/011_Dashboard.jpg)
+
+### Email Search Interface
+Search and filter emails with advanced criteria to identify follow-up opportunities.
+
+![Email Search](Images/015_Search.jpg)
+
+### Management Interface - Email List
+View and manage your tracked emails with status updates and priority assignments.
+
+![Management Menu 1](Images/020_Managment_Menu1.jpg)
+
+### Management Interface - Email Details
+Edit email details, add notes, and update follow-up status.
+
+![Management Menu 2](Images/030_Managment_Menu2.jpg)
+
+### Management Interface - Calendar Integration
+Create calendar reminders and manage follow-up schedules directly from the interface.
+
+![Management Menu 3](Images/040_Managment_Menu3.jpg)
+
+### Settings Panel
+Configure application settings, authentication, and system preferences.
+
+![Settings](Images/050_Settings.jpg)
+
+### Backup Management
+Manage data backups and restore previous versions of your email tracking data.
+
+![Settings Backup](Images/060_Settings_Backup.jpg)
+
 ## 📋 Prerequisites
 
 - Python 3.12 or higher
@@ -176,6 +218,15 @@ gmail-followup-manager/
 ├── pyproject.toml         # Project dependencies and metadata
 ├── .env                   # Environment variables
 ├── credentials.json       # Google API credentials (you provide)
+├── Images/                # Screenshots and documentation images
+│   ├── 001_Dashboard.jpg
+│   ├── 011_Dashboard.jpg
+│   ├── 015_Search.jpg
+│   ├── 020_Managment_Menu1.jpg
+│   ├── 030_Managment_Menu2.jpg
+│   ├── 040_Managment_Menu3.jpg
+│   ├── 050_Settings.jpg
+│   └── 060_Settings_Backup.jpg
 ├── src/
 │   ├── __init__.py
 │   ├── config.py          # Application configuration
@@ -281,4 +332,3 @@ If you encounter any issues or have questions:
 **Version**: 1.0.0  
 **Last Updated**: 2025-06-03  
 **Compatibility**: Python 3.12+, Streamlit 1.45+
-
